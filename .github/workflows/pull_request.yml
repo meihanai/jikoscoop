@@ -1,0 +1,16 @@
+on:
+  pull_request:
+    types: [opened]
+name: Pull Requests
+jobs:
+  pullRequestHandler:
+    name: PullRequestHandler
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: PullRequestHandler
+        uses: ScoopInstaller/GithubActions@main
+        env:
+          USER_NAME: "meihanai"
+          USER_EMAIL: "131862741+meihanai@users.noreply.github.com"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

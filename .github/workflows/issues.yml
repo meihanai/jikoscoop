@@ -1,0 +1,17 @@
+on:
+  issues:
+    types: [opened, labeled]
+name: Issues
+jobs:
+  issueHandler:
+    name: IssueHandler
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: IssueHandler
+        uses: ScoopInstaller/GithubActions@main
+        if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
+        env:
+          USER_NAME: "meihanai"
+          USER_EMAIL: "131862741+meihanai@users.noreply.github.com"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
