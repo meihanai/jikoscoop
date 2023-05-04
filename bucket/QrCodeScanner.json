@@ -9,7 +9,7 @@
     "shortcuts": [
         [
             "MyQrCodeScanner.exe",
-            "建议条码扫描"
+            "简易条码扫描"
         ]
     ],
     "checkver": {
