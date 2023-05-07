@@ -1,0 +1,23 @@
+{
+    "version": "7.5.0",
+    "description": "ReNamer Pro 是一款超级强大的文件批量重命名工具",
+    "homepage": "https://www.ypojie.com/5931.html",
+    "license": "Proprietary",
+    "notes": "基于官方最新安装版集成河蟹授权补丁文件制作打包而成，完美和谐主程序组件；删减多余用户界面语言及帮助说明文档，中文语言包可能存在的不完全汉化问题",
+    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/ReNamer-pro/7.5.0/ReNamer.7z",
+    "hash": "d82bf386bcca8befed3180e4e37699ebaeea174c61cfa9fa0b3a6ff86efb51da",
+    "bin": "ReNamerPortable.exe",
+    "shortcuts": [
+        [
+            "ReNamerPortable.exe",
+            "ReNamerPortable"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/versions/ReNamer.latest",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/ReNamer-pro/$version/ReNamer.7z"
+    }
+}
