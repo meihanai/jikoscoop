@@ -1,0 +1,50 @@
+{
+    "version": "2.4.0-beta.1",
+    "description": "Image uploader/manager",
+    "homepage": "https://picgo.github.io/PicGo-Doc/en/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.4.0-beta.1/PicGo-Setup-2.4.0-beta.1-x64.exe#/dl.7z",
+            "hash": "sha512:3e11cb3373018750fdbadb223ea7f27bb5cc176c1f3a3a20dc54cb6511c7b83653cb206ec05e2f5738f15de9d735b428f84ebb665129649357e931d2927a5524",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.4.0-beta.1/PicGo-Setup-2.4.0-beta.1-ia32.exe#/dl.7z",
+            "hash": "sha512:42c184a2fd9abf1b3fc9643dd614264a47d340d6889908657dc942f4bbcda24d3e3a875cd8ee21bc78679468d6c6cffe53103653bee9546bb4267e1cfdd3e94a",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        }
+    },
+    "bin": "PicGo.exe",
+    "shortcuts": [
+        [
+            "PicGo.exe",
+            "PicGo"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Molunerfinn/PicGo/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "(?<tag>v([\\w.-]+))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Molunerfinn/PicGo/releases/download/$matchTag/PicGo-Setup-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/Molunerfinn/PicGo/releases/download/$matchTag/PicGo-Setup-$version-ia32.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "(?s)$basename.*?$base64"
+        }
+    }
+}
