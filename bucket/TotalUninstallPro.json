@@ -3,7 +3,7 @@
     "license": "Proprietary",
     "description": "Total Uninstall是一款专业的软件卸载及程序监视利器,堪称最强的程序卸载及安装监视工具。",
     "version": "7.0.0.600",
-    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total%20Uninstall%20Pro/Total_Uninstall_Pro_v7.0.0.600.7z",
+    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total_Uninstall_Pro/7.0.0.600/Total_Uninstall_Pro_v7.0.0.600.7z",
     "hash": "8c2406701b0a47fbe6070e0ac179e9023b9b3ff5febc354338b6f2d0fbb7cccd",
     "persist": "Data",
     "checkver": {
@@ -11,7 +11,7 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total%20Uninstall%20Pro/Total_Uninstall_Pro_v$version.7z"
+        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total_Uninstall_Pro/$version/Total_Uninstall_Pro_v$version.7z"
     },
     "shortcuts": [
         [
