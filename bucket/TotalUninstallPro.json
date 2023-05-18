@@ -2,9 +2,9 @@
     "homepage": "https://www.423down.com/6178.html",
     "license": "Proprietary",
     "description": "Total Uninstall是一款专业的软件卸载及程序监视利器,堪称最强的程序卸载及安装监视工具。",
-    "version": "7.0.0.600",
-    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total_Uninstall_Pro/7.0.0.600/Total_Uninstall_Pro_v7.0.0.600.7z",
-    "hash": "8c2406701b0a47fbe6070e0ac179e9023b9b3ff5febc354338b6f2d0fbb7cccd",
+    "version": "7.3.1.641",
+    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/Total_Uninstall_Pro/7.3.1.641/Total_Uninstall_Pro_v7.3.1.641.7z",
+    "hash": "3670219e860aff592de7c74d44ff2550cef39c551d7930dc2183166c4f3c8d7f",
     "persist": "Data",
     "checkver": {
         "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/versions/TotalUninstallPro.latest",
