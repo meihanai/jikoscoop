@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.5.3-beta",
+    "version": "v0.1.8-beta",
     "description": "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM. English/简体中文/繁體中文.",
     "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
     "license": "MIT",
@@ -11,13 +11,13 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.net/https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.1.5.3-beta/N_m3u8DL-RE_Beta_win-x64_20230323.zip",
-            "hash": "c9723a6c4cb782c3a412038f90a5304cd1116d57ec90e293a1013e1d419ba830",
+            "url": "https://ghproxy.net/https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.1.8-beta/N_m3u8DL-RE_Beta_win-x64_20230615.zip",
+            "hash": "d9b5569c3d973bf2eea701dd8314da68995e79564f30dc0b264fbb8cbd23232e",
             "extract_dir": "N_m3u8DL-RE_Beta_win-x64"
         },
         "arm64": {
-            "url": "https://ghproxy.net/https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.1.5.3-beta/N_m3u8DL-RE_Beta_win-arm64_20230323.zip",
-            "hash": "f90e61254ef6593f7f9b6221fb0fed35526b5c4c6e983673148617add97f39c8",
+            "url": "https://ghproxy.net/https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.1.8-beta/N_m3u8DL-RE_Beta_win-arm64_20230615.zip",
+            "hash": "cd5f2228930c2adbb77dc5b6960dcbf040c82bba069899f952d22d0ac6e432ff",
             "extract_dir": "N_m3u8DL-RE_Beta_win-arm64"
         }
     },
