@@ -1,10 +1,10 @@
 {
-    "version": ".104",
+    "version": ".105",
     "description": "为ASUS笔记本打造的、Armoury Crate(奥创控制中心)的轻量化替代品",
     "homepage": "https://github.com/seerge/g-helper",
     "license": "MIT",
-    "url": "https://github.com/seerge/g-helper/releases/download/v.104/GHelper.zip",
-    "hash": "f290ddc33277aa39c15f1dcb540b5d0f017b0211632518a22d429f1f700151bc",
+    "url": "https://github.com/seerge/g-helper/releases/download/v.105/GHelper.zip",
+    "hash": "aaef8e9a257dbd7345da192f34a61c0dcb5beb1f5fe59d6e1ed4fd718a3c32d3",
     "shortcuts": [
         [
             "GHelper.exe",
