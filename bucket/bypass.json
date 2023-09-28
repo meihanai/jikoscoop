@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download-aws.bypass.cn/Bypass_1.15.34.zip",
-            "hash": "20b1be5a1350aa39ef16952819820ab16c824a57866f0c6aaaa98a25d777eb25"
+            "hash": "1AF5CCD6E785ACA64218C94E6AC3D587D0C94C414406C0D8190573C7F605EED1"
         }
     },
     "extract_dir": "Bypass",
