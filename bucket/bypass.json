@@ -1,13 +1,13 @@
 {
-    "version": "1.16.22",
+    "version": "1.16.25",
     "description": "Bypass - Eaiser to buy your tickets",
     "homepage": "https://www.bypass.cn",
     "license": "Freeware",
     "notes": "Bypass,Eaiser to buy your tickets",
     "architecture": {
         "64bit": {
-            "url": "https://download-aws.bypass.cn/Bypass_1.16.22.zip",
-            "hash": "c7f221145bc9ddb4bfaffbb3e33fb65d043dbca83bd92a3fc0ce9ed59a67ba1d"
+            "url": "https://download-aws.bypass.cn/Bypass_1.16.25.zip",
+            "hash": "32fefbebadabfe2aa6897710f6522797ee1c8283a1ce50d91af98d05e1d0b3e4"
         }
     },
     "extract_dir": "Bypass",
