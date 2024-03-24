@@ -1,10 +1,10 @@
 {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "description": "🚀 一款简洁高效的输入、截图、划词翻译软件",
     "homepage": "https://github.com/InkTimeRecord/TTime",
     "license": "MIT",
-    "url": "https://github.com/InkTimeRecord/TTime/releases/download/v0.9.7/TTime.0.9.7.exe",
-    "hash": "be3bc6882e2ec0e205561aedec17556f4eaba2709d739a3696589072f51d5b30",
+    "url": "https://github.com/InkTimeRecord/TTime/releases/download/v0.9.8/TTime.0.9.8.exe",
+    "hash": "8eee82b2d030a9e19b5484635253fc9aa7e3ca81f431c802ef8bad1535c97d0c",
     "installer": {
         "script": "Rename-Item \"$dir\\TTime.$version.exe\" \"TTime.exe\""
     },
