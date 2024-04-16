@@ -1,17 +1,17 @@
 {
-    "version": "2.45.7",
+    "version": "2.45.8",
     "description": "Galgame翻译工具, 支持剪贴板, OCR, HOOK, 支持30余种翻译工具, 支持TTS",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.45.7/LunaTranslator.zip",
-            "hash": "a381c34a4231e5241bfefc5164779fa9d6b1c3d5dee54defe076fff3fe315594",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.45.8/LunaTranslator.zip",
+            "hash": "c85274f1828971e5e94be926a187f37112c1715d7ba16ca64cd978e9a393464e",
             "extract_dir": "LunaTranslator"
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.45.7/LunaTranslator_x86.zip",
-            "hash": "74938bcbd6d73d950ab91bc50526a7911a5dc472f07960194981f64582e26df7",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.45.8/LunaTranslator_x86.zip",
+            "hash": "3063f07193e33d799d3f69185e870f7a270d145cd0cc57817e586b2d0a3c803b",
             "extract_dir": "LunaTranslator_x86"
         }
     },
