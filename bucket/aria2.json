@@ -1,0 +1,24 @@
+{
+    "homepage": "https://github.com/myfreeer/aria2-build-msys2",
+    "license": "GPL-3.0-1-ov-file",
+    "description": "Aria2增强版，aria2 build scripts for msys2 with custom patches.",
+    "version": "1.37.0.1",
+    "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/aria2/1.37.0.1/aria2.7z",
+    "hash": "3ed736e55c76438c1bf55234951bf27121ba229990ec64419d748b36714f5a7c",
+    "extract_dir": "aria2",
+    "persist": [
+        ".aria2",
+        ".cache",
+        "logs",
+        "aria2.conf"
+    ],
+    "bin": "aria2c.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/versions/aria2.latest",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/meihanai/jikoapp/main/app/aria2/$version/aria2.7z",
+        "extract_dir": "aria2"
+    }
+}
