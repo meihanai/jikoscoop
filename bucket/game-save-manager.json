@@ -16,8 +16,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/mcthesw/game-save-manager/releases/latest",
-        "jsonpath": "$.assets[*].name",
+        "url": "https://api.github.com/repos/mcthesw/game-save-manager/releases",
+        "jsonpath": "$[?(@.tag_name == 'latest')].assets[*].name",
         "regex": "RGSM_([\\d.]+)_"
     },
     "autoupdate": {
