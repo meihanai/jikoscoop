@@ -1,12 +1,12 @@
 {
-    "version": "1.5.3",
+    "version": "1.5.4",
     "description": "一个简单易用的开源游戏存档管理工具。它可以帮助你管理游戏的存档文件，并且以用户友好的图像化窗口对你的存档进行描述、保存、删除、覆盖等操作。",
     "homepage": "https://github.com/mcthesw/game-save-manager",
     "license": "AGPL",
     "architecture": {
         "64bit": {
             "url": "https://github.com/mcthesw/game-save-manager/releases/download/latest/RGSM_undefined_x64-portable.zip",
-            "hash": "27052e08677cf0cb499e983b226eb46161c5bdae53952376232e40531b9c2f68"
+            "hash": "7c37feaab7d2a88586fa66e574123818ebdc2f3b11dee1eca1916bb480650f13"
         }
     },
     "shortcuts": [
