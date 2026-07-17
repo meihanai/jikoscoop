@@ -1,5 +1,5 @@
 {
-    "version": "7.2.83",
+    "version": "7.2.83-pro",
     "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service.",
     "homepage": "https://github.com/ssfun/CLIProxyAPI-Pro",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v7.2.83/CLIProxyAPI-Pro_7.2.83_windows_amd64.zip",
-            "hash": "43cefec498f462ee2ae7cca50084cbb91708d34f7d5b4d19d6a5d50bcbe22c40"
+            "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v7.2.83-pro/CLIProxyAPI_7.2.83-pro_windows_amd64.zip",
+            "hash": "f2e7a91944c38208f370900fc11710af840ecb7de3af5908b3033eaa2585ddfc"
         },
         "arm64": {
-            "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v7.2.83/CLIProxyAPI-Pro_7.2.83_windows_aarch64.zip",
-            "hash": "d3e19001d84d4c5a56e42d2926c8c51ab81f78ee28dce573a35f0ab39e94ab1c"
+            "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v7.2.83-pro/CLIProxyAPI_7.2.83-pro_windows_aarch64.zip",
+            "hash": "1a411299c4d6c93ec73c01f2eaf4315f649148a854a009cfda536db0a195781d"
         }
     },
     "pre_install": [
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v$version/CLIProxyAPI-Pro_$version_windows_amd64.zip"
+                "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v$version/CLIProxyAPI_$version_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v$version/CLIProxyAPI-Pro_$version_windows_aarch64.zip"
+                "url": "https://github.com/ssfun/CLIProxyAPI-Pro/releases/download/v$version/CLIProxyAPI_$version_windows_aarch64.zip"
             }
         },
         "hash": {
